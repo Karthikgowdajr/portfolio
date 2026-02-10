@@ -14,7 +14,11 @@ export default function ProjectsPage() {
         
 
         {/* Data Sage */}
-        <div className="border p-6 rounded-lg">
+        <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
+                shadow-sm hover:shadow-lg transition-all
+                hover:-translate-y-1
+                hover:border-teal-400/40">
+
   <h2 className="text-xl font-semibold">Data Sage</h2>
   <p className="mt-2 text-gray-600">
     An AI-powered data analysis assistant that helps users explore,
@@ -31,7 +35,11 @@ export default function ProjectsPage() {
 
 
         {/* AirPointer */}
-       <div className="border p-6 rounded-lg">
+      <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
+                shadow-sm hover:shadow-lg transition-all
+                hover:-translate-y-1
+                hover:border-teal-400/40">
+
   <h2 className="text-xl font-semibold">AirPointer</h2>
   <p className="mt-2 text-gray-600">
     A computer-vision-based system that enables gesture-controlled
