@@ -15,6 +15,8 @@ export default function DataSageCaseStudy() {
           query, and derive insights from datasets.
         </p>
 
+
+
         {/* Problem */}
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-slate-200">Problem</h2>
