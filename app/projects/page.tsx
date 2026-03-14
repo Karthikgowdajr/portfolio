@@ -70,12 +70,12 @@ export default function ProjectsPage() {
       Case study →
     </a>
       <a
-    href="https://your-live-url-here"
+    href="https://youtu.be/DexzMcIGnLA"
     target="_blank"
     rel="noopener noreferrer"
     className="text-emerald-400 hover:text-emerald-300 transition-colors"
   >
-    Live demo ↗
+    Demo video ↗
   </a>
     <a
       href="https://github.com/Karthikgowdajr/air-pointer"
