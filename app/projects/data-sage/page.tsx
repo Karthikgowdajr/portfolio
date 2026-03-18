@@ -30,8 +30,17 @@ export default function DataSageCaseStudy() {
         <section className="mt-8">
           <h2 className="text-xl font-semibold text-slate-200">Approach</h2>
           <p className="mt-2 text-slate-400">
-            Built an AI assistant that interprets natural language queries,
-            analyzes structured data, and returns meaningful insights.
+            Built an AI assistant that uses LLM integration and PandasAI to 
+            translate natural language queries into structured data analysis and return meaningful insights.
+          </p>
+        </section>
+
+        {/* Key Feature */}
+        <section className="mt-8">
+          <h2 className="text-xl font-semibold text-slate-200">Key Feature</h2>
+          <p className="mt-2 text-slate-400">
+            Natural language querying, automated insight generation, 
+            visualization support, and a no-code interface for exploring structured datasets efficiently.
           </p>
         </section>
 
@@ -58,8 +67,8 @@ export default function DataSageCaseStudy() {
             What I’d Improve Next
           </h2>
           <p className="mt-2 text-slate-400">
-            Improve query accuracy, add memory across sessions, and support
-            larger datasets.
+            Improve query accuracy, add memory across sessions, support
+            larger datasets, summarize generated chart with audio, statistical forecasting.
           </p>
         </section>
       </section>

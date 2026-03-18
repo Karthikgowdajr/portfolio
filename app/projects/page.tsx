@@ -17,7 +17,11 @@ export default function ProjectsPage() {
     <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
                 shadow-sm hover:shadow-lg transition-all
                 hover:-translate-y-1 hover:border-teal-400/40">
+  <div className="flex items-center gap-2">
   <h2 className="text-xl font-semibold text-slate-100">Data Sage</h2>
+  <h2 className="text-emerald-400 hover:text-emerald-200 transition-colors">● Live</h2>
+</div>
+
 
   <p className="mt-2 text-slate-400">
     An AI-powered data analysis assistant that helps users explore,
@@ -39,6 +43,14 @@ export default function ProjectsPage() {
   >
     Live demo ↗
   </a>
+   <a
+    href="https://youtu.be/zZlSSGuyy5k"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+  >
+    Video demo ↗
+  </a>
     <a
       href="https://github.com/Karthikgowdajr/Data_sage"
       target="_blank"
@@ -55,8 +67,10 @@ export default function ProjectsPage() {
       <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
                 shadow-sm hover:shadow-lg transition-all
                 hover:-translate-y-1 hover:border-teal-400/40">
+  <div className="flex items-center gap-2">
   <h2 className="text-xl font-semibold text-slate-100">AirPointer</h2>
-
+  <h2 className="text-emerald-400 hover:text-emerald-200 transition-colors">● Build ready</h2>
+</div>
   <p className="mt-2 text-slate-400">
     A computer-vision-based system that enables gesture-controlled
     mouse interaction using hand movements.
@@ -75,7 +89,7 @@ export default function ProjectsPage() {
     rel="noopener noreferrer"
     className="text-emerald-400 hover:text-emerald-300 transition-colors"
   >
-    Demo video ↗
+    Video demo ↗
   </a>
     <a
       href="https://github.com/Karthikgowdajr/air-pointer"
@@ -95,35 +109,23 @@ export default function ProjectsPage() {
     <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
                 shadow-sm hover:shadow-lg transition-all
                 hover:-translate-y-1 hover:border-teal-400/40">
+   <div className="flex items-center gap-2">
   <h2 className="text-xl font-semibold text-slate-100">Resume Sensei</h2>
-
+  <h2 className="text-emerald-400 hover:text-emerald-200 transition-colors">● Under development</h2>
+</div>
   <p className="mt-2 text-slate-400">
-    An AI-powered Resume Scanner which helps you with ats and recruiter scores to make your resume better for job applications.
+    An AI-powered Resume Scanner which helps you with ats and recruiter scores to make your 
+    resume better for job applications.
   </p>
 
   <div className="mt-4 flex items-center gap-4">
     <a
-      href="/projects/data-sage"
+      href="/projects/resume_sensei"
       className="text-teal-400 hover:text-teal-300 transition-colors"
     >
       Case study →
     </a>
-      <a
-    href="https://data-sage.streamlit.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-emerald-400 hover:text-emerald-300 transition-colors"
-  >
-    Live demo ↗
-  </a>
-    <a
-      href="https://github.com/Karthikgowdajr/Data_sage"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-slate-400 hover:text-slate-200 transition-colors"
-    >
-      GitHub ↗
-    </a>
+     
   </div>
 </div>
       </div>
