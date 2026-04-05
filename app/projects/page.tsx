@@ -105,6 +105,56 @@ export default function ProjectsPage() {
   </div>
 </div>
 
+        {/* IQ-Scout */}
+    <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
+                shadow-sm hover:shadow-lg transition-all
+                hover:-translate-y-1 hover:border-teal-400/40">
+  <div className="flex items-center gap-2">
+  <h2 className="text-xl font-semibold text-slate-100">IQ Scout</h2>
+  <h2 className="text-emerald-400 hover:text-emerald-200 transition-colors">● Live</h2>
+</div>
+
+
+  <p className="mt-2 text-slate-400">
+  IQ-Scout, an AI-driven sales engine that automates lead research by scraping 
+  company data and generating instant intelligence briefs.
+  </p>
+
+  <div className="mt-4 flex items-center gap-4">
+    <a
+      href="/projects/iq-scout"
+      className="text-teal-400 hover:text-teal-300 transition-colors"
+    >
+      Case study →
+    </a>
+      <a
+    href="https://iq-scout.streamlit.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+  >
+    Live demo ↗
+  </a>
+   <a
+    href="https://www.loom.com/share/e3a24c63bb444a1ba057820a594ec716"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+  >
+    Video demo ↗
+  </a>
+    <a
+      href="https://github.com/Karthikgowdajr/IQ-Scout"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-slate-400 hover:text-slate-200 transition-colors"
+    >
+      GitHub ↗
+    </a>
+  </div>
+</div>
+
+
     {/* Resume Sensei */}
     <div className="relative rounded-xl bg-slate-900 border border-slate-800 p-6
                 shadow-sm hover:shadow-lg transition-all
